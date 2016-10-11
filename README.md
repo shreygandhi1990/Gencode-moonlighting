@@ -10,10 +10,10 @@
 2. For all ENSTs we removed numbers after the dot.
 3. From the file,  we replaced 218 ENST IDs with their respective ENSTR 
 4. Removing redundancies by replacing OTTHUMT (Havana Ids) with ENST (Ensembl Ids)
-           * 77,193 had single ENST prefixed (converted)
-           * 1,982 OTTHUT prefixed  IDs had more than one ENST IDs in the same version (OTTHUMT prefixed IDs were duplicated by assigning them both the Ensembl prefixed IDs while keeping their biotypes intact) 
-           * 3,188 OTTHUT prefixed IDs having more than one ENST prefixed IDs assigned to them across versions (ENST IDs duplicated and assigned biotypes of both the OTTHUMT IDs)
-           * 3,272  as OTTHUMT as no ENST existed for them
+	* 77,193 had single ENST prefixed (converted)
+	* 1,982 OTTHUT prefixed  IDs had more than one ENST IDs in the same version (OTTHUMT prefixed IDs were duplicated by assigning them both the Ensembl prefixed IDs while keeping their biotypes intact) 
+	* 3,188 OTTHUT prefixed IDs having more than one ENST prefixed IDs assigned to them across versions (ENST IDs duplicated and assigned biotypes of both the OTTHUMT IDs)
+	* 3,272  as OTTHUMT as no ENST existed for them
 5. Labeled transcript biotype as “NA” when no biotype was assigned in any particular version.  
 
 ## Processed Complete File 
