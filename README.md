@@ -7,6 +7,7 @@
 The downloaded data was in form of gene transfer format (GTF) format
 The files which were publically available for download was for versions V1 to V24. Note -  V3a was not publically available.
 [Read more words!](docs/more_words.md)
+[![Build Status](https://travis-ci.org/ilyash/ngs.svg?branch=master)](https://travis-ci.org/ilyash/ngs)
 
 ## Data Pre-processing
 From the individual GTF files which were downloaded, we extracted all the transcripts, and made a list of unique transcript IDs assigned under the “transcript_id” identifier and their corresponding “havana_transcript” identifier if present. Uptil V3d the havana IDs were used as the main identifiers and thus we took them as such. Note - For V1, no gene or transcript information were available. Hence, we  had to extract this information from the exonic coordinates present in the GTF file.
