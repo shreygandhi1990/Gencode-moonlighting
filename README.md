@@ -1,14 +1,14 @@
 # Gencode-moonlighting
 
 ## Data download
-1. The annotated human transcriptome data was downlaoded from the GENCODE consortia through their [![FTP site](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
+1. The annotated human transcriptome data was downlaoded from the GENCODE consortia through their [FTP site](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
 
 (ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
 The downloaded data was in form of gene transfer format (GTF) format
 The files which were publically available for download was for versions V1 to V24. Note -  V3a was not publically available.
 [Read more words!](docs/more_words.md)
 [![Build Status](https://travis-ci.org/ilyash/ngs.svg?branch=master)](https://travis-ci.org/ilyash/ngs)
-
+[Domain Specific Languages](https://en.wikipedia.org/wiki/Domain-specific_language)
 ## Data Pre-processing
 From the individual GTF files which were downloaded, we extracted all the transcripts, and made a list of unique transcript IDs assigned under the “transcript_id” identifier and their corresponding “havana_transcript” identifier if present. Uptil V3d the havana IDs were used as the main identifiers and thus we took them as such. Note - For V1, no gene or transcript information were available. Hence, we  had to extract this information from the exonic coordinates present in the GTF file.
 We compiled the list of transcript biotype assigned to these unique transcripts which were extracted from GTF files (Compiled with all versions.txt)
