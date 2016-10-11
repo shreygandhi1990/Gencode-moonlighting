@@ -1,9 +1,7 @@
 # Gencode-moonlighting
 
 ## Data download
-1. The annotated human transcriptome data was downlaoded from the GENCODE consortia through their [FTP site](http://www.google.com)
-
-(ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
+1. The annotated human transcriptome data was downlaoded from the [GENCODE](http://www.gencodegenes.org/) consortia through their ftp site (ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
 The downloaded data was in form of gene transfer format (GTF) format
 The files which were publically available for download was for versions V1 to V24. Note -  V3a was not publically available.
 [Read more words!](docs/more_words.md)
