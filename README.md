@@ -37,9 +37,9 @@
            * If a biotype for a particular transcript was assigned (X) in Version n (Vn) and the same transcript was labeled as “NA”  in next Version (Vn+1), then we considered that the transcript has been deleted in next version. Table 3
 
 ## To check the consistency of biotype for a transcript (Mention commands)
-a) If a transcript has the same biotype across all versions of GENCODE, hence we can say that it is consistent
-b) 19,520 lncRNA  and 32,458 protein coding transcripts had same across all GENCODE classes
-c) the ones which did have were denoted to have moonlighting annotations (Table 4 and 5) 
+1. If a transcript has the same biotype across all versions of GENCODE, hence we can say that it is consistent
+2. 19,520 lncRNA  and 32,458 protein coding transcripts had same across all GENCODE classes
+3. the ones which did have were denoted to have moonlighting annotations (Table 4 and 5) 
 
 ## Switching of transcripts across versions (Mention commands/script)
-a) If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation.  (Table 6)
+1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation.  (Table 6)
