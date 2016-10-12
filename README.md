@@ -4,6 +4,7 @@
 1. The annotated human transcriptome data was downlaoded from the [GENCODE](http://www.gencodegenes.org/) consortia through their ftp site (ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
 2. The downloaded data was in form of gene transfer format (GTF) format.
 3. The files which were publically available for download was for versions V1 to V24. Note -  V3a was not publically available.
+![test] (Gencode-moonlighting/images/Picture1.png "About")
 
 ## Data Pre-processing
 1. From the individual GTF files which were downloaded, we extracted all the transcripts, and made a list of unique transcript IDs assigned under the “transcript_id” identifier and their corresponding “havana_transcript” identifier if present. Uptil V3d the havana IDs were used as the main identifiers and thus we took them as such. Note - For V1, no gene or transcript information were available. Hence, we  had to extract this information from the exonic coordinates present in the GTF file. We compiled the list of transcript biotype assigned to these unique transcripts which were extracted from GTF files (Compiled with all versions.txt)
