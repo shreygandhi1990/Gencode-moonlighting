@@ -1,8 +1,8 @@
+The following sections provide details about the analyses performed in the paper entited:
 # Navigating the dynamic landscape of long noncoding RNA and protein-coding gene annotations in GENCODE 
-Saakshi Jalali1, 2, Shrey Gandhi1, Vinod Scaria1,2$ 
-1GN Ramachandran Knowledge Center for Genome Informatics, CSIR Institute of Genomics and Integrative Biology (CSIR-IGIB), Mathura Road, Delhi 110 020, India
-2Academy of Scientific and Innovative Research (AcSIR), CSIR IGIB South Campus, Mathura Road, Delhi 110020, India
+Saakshi Jalali, Shrey Gandhi, Vinod Scaria.
 
+*This document consists of detailed methodology alongwith all the associated content. We are only providing this information in addition to a description of methods as mentioned in the paper for making it easier to reproduce our analyses. Kindly note that this is not the release of a software package.*
 
 ## Data download
 1. The annotated human transcriptome data was downlaoded from the [GENCODE](http://www.gencodegenes.org/) consortia through their ftp site (ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
