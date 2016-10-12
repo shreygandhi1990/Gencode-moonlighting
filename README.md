@@ -39,15 +39,18 @@
 ![Table3] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture1.png "Table Highlighting the addition and deletion of transcripts in each version")  
 
 ## Switching of transcripts across versions
-1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation. This was done separately for each version and the results have been compiled in the table below. 										
+1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation. 
 ![Table6] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture5.png "Table Highlighting the transformation of transcripts across Gencode versions")
 
 ## To check the consistency of biotype for a transcript
 1. Transcripts having same biotype across all versions of GENCODE, we considered them to be consistent.
 2. 19,520 lncRNA  and 32,458 protein coding transcripts had same biotype across all GENCODE versions.
 3. The transcripts which were inconsistent for their biotypes, were denoted to have moonlighting annotations.
+4. We also calculated the number of biotypes which were assigned to any transcript over its lifetime.
+![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    	
+5. In addition, we also observed transcripts went through large number of transitions from one biotype to another in its lifetime. The same has been listed below.
 
-![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    					![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
+![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
 
 
 
