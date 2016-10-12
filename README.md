@@ -44,7 +44,8 @@
 ## To check the consistency of biotype for a transcript
 1. If a transcript has the same biotype across all versions of GENCODE, hence we can say that it is consistent
 2. 19,520 lncRNA  and 32,458 protein coding transcripts had same across all GENCODE classes
-3. the ones which did have were denoted to have moonlighting annotations 
+3. the ones which did have were denoted to have moonlighting annotations.
+
 ![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    					![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
 
 
