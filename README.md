@@ -19,7 +19,7 @@
 5. Labeled transcript biotype as “NA” when no biotype was assigned in any particular version.  
 
 ## Processed Complete File 
-1. The complete file which we compiled consisted for 2,51,614 transcript ids (Masterfile.txt.)
+1. The complete [file](link2Masterfile.txt) which we compiled consisted for 2,51,614 transcript ids.
 2. We further assigned number codes to the biotypes present in the Masterfile. (Masterfile converted to codes.txt)
 3. We plotted the distribution of biotypes across all the GENCODE versions using RAW app.
 
