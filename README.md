@@ -3,15 +3,15 @@
 ## Data download
 1. The annotated human transcriptome data was downlaoded from the [GENCODE](http://www.gencodegenes.org/) consortia through their ftp site (ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human)
 2. The downloaded data was in form of gene transfer format (GTF) format.
-3. The files which were publically available for download was for versions V1 to V24. Note -  V3a was not publically available.
+3. The files for versions V1 to V24 were publically available for download. Note -  V3a has not been made publically available.
 
 ![test] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture1.png "About")
 
 ## Data Pre-processing
 1. From the individual GTF files which were downloaded, we extracted all the transcripts, and made a list of unique transcript IDs assigned under the “transcript_id” identifier and their corresponding “havana_transcript” identifier if present. Uptil V3d the havana IDs were used as the main identifiers and thus we took them as such. Note - For V1, no gene or transcript information were available. Hence, we  had to extract this information from the exonic coordinates present in the GTF file. We compiled the list of transcript biotype assigned to these unique transcripts which were extracted from GTF files (Compiled with all versions.txt)
-2. For all ENSTs we removed numbers after the dot.
-3. From the file,  we replaced 218 ENST IDs with their respective ENSTR 
-4. Removing redundancies by replacing OTTHUMT (Havana Ids) with ENST (Ensembl Ids)
+2. For all ENSTs we removed transcript subcode numbers after the dot.
+3. From the file,  we replaced 218 ENST IDs with their respective ENSTR. 
+4. Removing redundancies by replacing OTTHUMT (Havana Ids) with ENST (Ensembl Ids):
 	* 77,193 had single ENST prefixed (converted)
 	* 1,982 OTTHUT prefixed  IDs had more than one ENST IDs in the same version (OTTHUMT prefixed IDs were duplicated by assigning them both the Ensembl prefixed IDs while keeping their biotypes intact) 
 	* 3,188 OTTHUT prefixed IDs having more than one ENST prefixed IDs assigned to them across versions (ENST IDs duplicated and assigned biotypes of both the OTTHUMT IDs)
