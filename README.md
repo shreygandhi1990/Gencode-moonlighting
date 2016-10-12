@@ -47,3 +47,4 @@
 ![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    	![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
 
 
+
