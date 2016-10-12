@@ -33,7 +33,7 @@
 1. To check number of added transcripts
            * If a biotype for a particular transcript was labelled as “NA” in Version n (Vn) and the same transcript had an assigned biotype (X)  in next Version (Vn+1), then we considered that the transcript has been added in next version. Table 3
 2. To check number of deleted transcripts
-           * If a biotype for a particular transcript was assigned (X) in Version n (Vn) and the same transcript was labeled as “NA”  in next Version (Vn+1), then we considered that the transcript has been deleted in next version. Table 3.
+           * If a biotype for a particular transcript was assigned (X) in Version n (Vn) and the same transcript was labeled as “NA”  in next Version (Vn+1), then we considered that the transcript has been deleted in next version. (Table 3)
 ![Table3] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture1.png "Table Highlighting the addition and deletion of transcripts in each version")  
 
 ## Switching of transcripts across versions (Mention commands/script)
