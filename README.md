@@ -8,7 +8,7 @@
 ![test] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture1.png "About")
 
 ## Data Pre-processing
-1. From the individual GTF files which were downloaded, we extracted all the transcripts, and made a list of unique transcript IDs assigned under the “transcript_id” identifier and their corresponding “havana_transcript” identifier if present. Uptil V3d the havana IDs were used as the main identifiers and thus we took them as such. Note - For V1, no gene or transcript information were available. Hence, we  had to extract this information from the exonic coordinates present in the GTF file. We compiled the list of transcript biotype assigned to these unique transcripts which were extracted from GTF files (Compiled with all versions.txt)
+1. From the individual GTF files which were downloaded, we extracted all the transcripts, and made a list of unique transcript IDs assigned under the “transcript_id” identifier and their corresponding “havana_transcript” identifier if present. Uptil V3d the havana IDs were used as the main identifiers and thus we took them as such. Note - For V1, no gene or transcript information were available. Hence, we  had to extract this information from the exonic coordinates present in the GTF file. We compiled the list of transcript biotype assigned to these unique transcripts which were extracted from GTF files ([Compiled with all versions.txt](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Compiled%20with%20all%20versions.rar))
 2. For all ENSTs we removed transcript subcode numbers after the dot.
 3. From the file,  we replaced 218 ENST IDs with their respective ENSTR. 
 4. Removing redundancies by replacing OTTHUMT (Havana Ids) with ENST (Ensembl Ids):
@@ -19,8 +19,8 @@
 5. Labeled transcript biotype as “NA” when no biotype was assigned in any particular version.  
 
 ## Processed Complete File 
-1. The complete [file](link2Masterfile.txt) which we compiled consisted for 2,51,614 transcript ids.
-2. We further assigned number codes to the biotypes present in the Masterfile. (Masterfile converted to codes.txt)
+1. The complete [file](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile.zip) which we compiled consisted for 2,51,614 transcript ids.
+2. We further assigned number codes to the biotypes present in the Masterfile. ([Masterfile converted to codes.txt](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile%20converted%20to%20codes.zip))
 3. We plotted the distribution of biotypes across all the GENCODE versions using RAW app.
 
 ## Biotype wise data processing (Mention commands)
