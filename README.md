@@ -24,11 +24,10 @@
 ## Biotype wise data processing (Mention commands)
 1. Extracted the assigned biotypes for each transcript id across versions. Assigned “NA” to transcripts having no biotype.
 2. 1,14,114 protein coding transcripts extracted across 28 versions (had PC biotype anytime in their lifetime)
-3. Identified 23 sub-classes of lncRNAs which are listed in Table below
-![Table2] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture6.png "lncRNA biotypes")  
-4. Renamed transcripts having anyone of the 23 biotype as lncRNA in our study.
+3. Identified 23 sub-classes of lncRNAs which are listed in Table below.								4. Renamed transcripts having anyone of the 23 biotype as lncRNA in our study.
 5. 1,20,864  lncRNA transcripts extracted across 28 versions (had lncRNA biotype anytime in their lifetime)
-6. Compiled the total transcripts having PC and lncRNA biotype for further processing
+6. Compiled the total transcripts having PC and lncRNA biotype for further processing.
+![Table2] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture6.png "lncRNA biotypes")  
 
 ## To check how many transcripts were added or deleted in each version of GENCODE (Mention commands)
 1. To check number of added transcripts
