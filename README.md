@@ -17,11 +17,11 @@
 5. Labeled transcript biotype as “NA” when no biotype was assigned in any particular version.  
 
 ## Processed Complete File 
-1. The complete [file](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile.zip) which we compiled consisted for 2,51,614 transcript ids.
+1. The complete [Masterfile](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile.zip) which we compiled consisted for 2,51,614 transcript ids.
 2. We further assigned number codes to the biotypes present in the Masterfile ([Masterfile converted to codes.txt](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile%20converted%20to%20codes.zip)). The assigned codes have been listed in the table below. ![Table] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture4.png "Transcript biotypes")  
 3. We plotted the distribution of biotypes across all the GENCODE versions using RAW app.
 
-## Biotype wise data processing (Mention commands)
+## Biotype wise data processing
 1. Extracted the assigned biotypes for each transcript id across versions. Assigned “NA” to transcripts having no biotype.
 2. 1,14,114 protein coding transcripts extracted across 28 versions (had PC biotype anytime in their lifetime)
 3. Identified 23 sub-classes of lncRNAs which are listed in Table below.
@@ -30,22 +30,22 @@
 6. Compiled the total transcripts having PC and lncRNA biotype for further processing.
 ![Table2] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture6.png "lncRNA biotypes")  
 
-## To check how many transcripts were added or deleted in each version of GENCODE (Mention commands)
+## To check how many transcripts were added or deleted in each version of GENCODE
 1. To check number of added transcripts
-           * If a biotype for a particular transcript was labelled as “NA” in Version n (Vn) and the same transcript had an assigned biotype (X)  in next Version (Vn+1), then we considered that the transcript has been added in next version. Table 3
+           * If a biotype for a particular transcript was labelled as “NA” in Version n (Vn) and the same transcript had an assigned biotype (X)  in next Version (Vn+1), then we considered that the transcript has been added in next version.
 2. To check number of deleted transcripts
-           * If a biotype for a particular transcript was assigned (X) in Version n (Vn) and the same transcript was labeled as “NA”  in next Version (Vn+1), then we considered that the transcript has been deleted in next version. (Table 3)					
+           * If a biotype for a particular transcript was assigned (X) in Version n (Vn) and the same transcript was labeled as “NA”  in next Version (Vn+1), then we considered that the transcript has been deleted in next version. 					
 ![Table3] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture1.png "Table Highlighting the addition and deletion of transcripts in each version")  
 
-## Switching of transcripts across versions (Mention commands/script)
-1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation.  (Table 6)
+## Switching of transcripts across versions
+1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation. 
 ![Table6] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture5.png "Table Highlighting the transformation of transcripts across Gencode versions")
 
-## To check the consistency of biotype for a transcript (Mention commands)
+## To check the consistency of biotype for a transcript
 1. If a transcript has the same biotype across all versions of GENCODE, hence we can say that it is consistent
 2. 19,520 lncRNA  and 32,458 protein coding transcripts had same across all GENCODE classes
-3. the ones which did have were denoted to have moonlighting annotations (Table 4 and 5) 
-![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    			![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
+3. the ones which did have were denoted to have moonlighting annotations 
+![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    					![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
 
 
 
