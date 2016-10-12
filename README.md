@@ -47,7 +47,8 @@
 2. 19,520 lncRNA  and 32,458 protein coding transcripts had same biotype across all GENCODE versions.
 3. The transcripts which were inconsistent for their biotypes, were denoted to have moonlighting annotations.
 4. We also calculated the number of biotypes which were assigned to any transcript over its lifetime. ![Table4] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture2.png "Table Highlighting the number of biotypes assigned to transcript during its lifetime")    	
-5. In addition, we also observed transcripts went through large number of transitions from one biotype to another in its lifetime. The same has been listed below.![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
+5. In addition, we also observed transcripts went through large number of transitions from one biotype to another in its lifetime. The same has been listed below. 
+![Table5] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture3.png "Table Highlighting the number of transitions each transcript went through during its lifetime")
 
 
 
