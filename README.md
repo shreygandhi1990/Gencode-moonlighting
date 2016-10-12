@@ -39,7 +39,7 @@
 ![Table3] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture1.png "Table Highlighting the addition and deletion of transcripts in each version")  
 
 ## Switching of transcripts across versions
-1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation. This was done separately for each version and the results have been compiled in the table below. 
+1. If the biotype of a transcript in version n (Vn) is not equal to the biotype of same transcript in next version (Vn+1), then it was labelled as having moonlighting annotation. This was done separately for each version and the results have been compiled in the table below. 										
 ![Table6] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture5.png "Table Highlighting the transformation of transcripts across Gencode versions")
 
 ## To check the consistency of biotype for a transcript
