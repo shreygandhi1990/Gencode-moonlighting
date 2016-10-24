@@ -24,7 +24,9 @@ Saakshi Jalali, Shrey Gandhi, Vinod Scaria.
 1. The complete [Masterfile](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile.zip) which we compiled consisted for 2,51,614 transcript ids.
 2. We further assigned number codes to the biotypes present in the Masterfile ([Masterfile converted to codes.txt](https://github.com/vinodscaria/Gencode-moonlighting/blob/master/Files/Masterfile%20converted%20to%20codes.zip)). The assigned codes have been listed in the table below. 
  ![Table] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/Picture4.png "Transcript biotypes")  
-3. We plotted the distribution of biotypes across all the GENCODE versions using RAW app.
+3. We plotted the distribution of biotypes across all the GENCODE versions using RAW app as shown in the figure below. 
+ ![Pic] (https://github.com/vinodscaria/Gencode-moonlighting/blob/master/images/9.gif "Sankey")
+
 
 ## Biotype wise data processing
 1. Extracted the assigned biotypes for each transcript id across all GENCODE versions. Assigned “NA” to transcripts having no assigned biotype.
